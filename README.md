@@ -6,5 +6,13 @@ If possible I will containerize this and use this app for other projects -> All 
 ## What does thhe app do?
 This application will record your screen activities and output into a re-playable video file. No GUI is planned - maybe an add-on to this project in the future.
 
+## Libraries Used
+
+In this project we need three libraries, these are as followed:
+- numpy
+- pyautogui
+- opencv-python
+
 ## Code Explanation
 ---- THIS PART WILL BE ADDED SOON ----
+
