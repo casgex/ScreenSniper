@@ -36,4 +36,10 @@ cv2.namedWindow('Live', cv2.WINDOW_NORMAL)
 cv2.resizeWindow('Live', 480, 270)
 ```
 
-5. 
+5. This is the Programm loop and does the followng from top to bottom:
+- takes screenshot with pyautoGUI
+- convert the screenshot to a numpy array
+- BGR (default) has to be converter to RGB
+- Write to output file
+- "OPTIONAL" show the small live feed window
+- stop recording when we press 'q'
