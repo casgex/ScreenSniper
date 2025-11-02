@@ -43,3 +43,13 @@ cv2.resizeWindow('Live', 480, 270)
 - Write to output file
 - "OPTIONAL" show the small live feed window
 - stop recording when we press 'q'
+
+6. Out of the loop we release the video writer with
+```python
+out.release()
+```
+
+7. We destry all the open windows from the programm
+```python
+cv2.destroyAllWindows()
+```
