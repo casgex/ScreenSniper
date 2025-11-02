@@ -14,5 +14,26 @@ In this project we need three libraries, these are as followed:
 - opencv-python
 
 ## Code Explanation
----- THIS PART WILL BE ADDED SOON ----
+1. We import the needed Libraires with
+```python
+import numpy as np, cv2, pyautogui
+```
 
+2. We prepare our variables such as
+- resolution (in this example 1920 x 1080)
+- Video Codec to use (XVID)
+- filename of the saved videofile at the end
+- fps (can be higher)
+
+3. This function allows you to write video frames to a file efficiently
+```python
+out = cv2.VideoWriter(filename, codec, fps, resolution)
+```
+
+4. We create a smaller Live-feed Window to show the user what's being recorded. This part is optional, but looks cool.
+```python
+cv2.namedWindow('Live', cv2.WINDOW_NORMAL)
+cv2.resizeWindow('Live', 480, 270)
+```
+
+5. 
