@@ -3,7 +3,7 @@ This application is a simple and easy first project to learn python and expand m
 
 If possible I will containerize this and use this app for other projects -> All leading to be a competent Cloud Engineer in the future.
 
-## What does thhe app do?
+## What does the app do?
 This application will record your screen activities and output into a re-playable video file. No GUI is planned - maybe an add-on to this project in the future.
 
 ## Libraries Used
